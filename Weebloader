@@ -1,0 +1,223 @@
+-- made by Nob_Dev#9193
+-- lmao kinda bad script
+
+local WeebLoadercc = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local KillSense = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Stormy = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Heckware = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Lunar = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local se = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local We = Instance.new("TextLabel")
+
+--Properties:
+
+WeebLoadercc.Name = "WeebLoader.cc"
+WeebLoadercc.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+WeebLoadercc.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = WeebLoadercc
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.194414601, 0, 0.23209168, 0)
+MainFrame.Size = UDim2.new(0, 568, 0, 373)
+
+UICorner.Parent = MainFrame
+
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 568, 0, 373)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7883349367"
+
+UICorner_2.Parent = ImageLabel
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.600
+Frame.Position = UDim2.new(0.169014081, 0, 0.147453085, 0)
+Frame.Size = UDim2.new(0, 376, 0, 262)
+
+UICorner_3.Parent = Frame
+
+KillSense.Name = "KillSense"
+KillSense.Parent = Frame
+KillSense.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KillSense.BackgroundTransparency = 0.600
+KillSense.Position = UDim2.new(0.0265957452, 0, 0.0572519079, 0)
+KillSense.Size = UDim2.new(0, 357, 0, 23)
+KillSense.Font = Enum.Font.Code
+KillSense.Text = "KillSense"
+KillSense.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillSense.TextScaled = true
+KillSense.TextSize = 14.000
+KillSense.TextTransparency = 0.600
+KillSense.TextWrapped = true
+KillSense.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/KillSense/main/KillSense",true))()
+end)
+
+UICorner_4.Parent = KillSense
+
+Stormy.Name = "Stormy"
+Stormy.Parent = Frame
+Stormy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Stormy.BackgroundTransparency = 0.600
+Stormy.Position = UDim2.new(0.0265957452, 0, 0.183206111, 0)
+Stormy.Size = UDim2.new(0, 357, 0, 23)
+Stormy.Font = Enum.Font.Code
+Stormy.Text = "Stormy"
+Stormy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stormy.TextScaled = true
+Stormy.TextSize = 14.000
+Stormy.TextTransparency = 0.600
+Stormy.TextWrapped = true
+Stormy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/StormyC/main/Stormy",true))()
+end)
+
+UICorner_5.Parent = Stormy
+
+Heckware.Name = "Heckware"
+Heckware.Parent = Frame
+Heckware.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Heckware.BackgroundTransparency = 0.600
+Heckware.Position = UDim2.new(0.0265957452, 0, 0.312977105, 0)
+Heckware.Size = UDim2.new(0, 357, 0, 23)
+Heckware.Font = Enum.Font.Code
+Heckware.Text = "Heckware"
+Heckware.TextColor3 = Color3.fromRGB(255, 255, 255)
+Heckware.TextScaled = true
+Heckware.TextSize = 14.000
+Heckware.TextTransparency = 0.600
+Heckware.TextWrapped = true
+Heckware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Heckware/main/Heck",true))()
+end)
+
+UICorner_6.Parent = Heckware
+
+Lunar.Name = "Lunar"
+Lunar.Parent = Frame
+Lunar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lunar.BackgroundTransparency = 0.600
+Lunar.Position = UDim2.new(0.0265957452, 0, 0.45419848, 0)
+Lunar.Size = UDim2.new(0, 357, 0, 23)
+Lunar.Font = Enum.Font.Code
+Lunar.Text = "LunarSense Crack"
+Lunar.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lunar.TextScaled = true
+Lunar.TextSize = 14.000
+Lunar.TextTransparency = 0.600
+Lunar.TextWrapped = true
+Lunar.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/lunarsense/main/LunarSense",true))()
+end)
+
+UICorner_7.Parent = Lunar
+
+se.Name = "se"
+se.Parent = Frame
+se.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+se.BackgroundTransparency = 0.600
+se.Position = UDim2.new(0.0239361711, 0, 0.58015269, 0)
+se.Size = UDim2.new(0, 357, 0, 23)
+se.Font = Enum.Font.Code
+se.Text = "More soon"
+se.TextColor3 = Color3.fromRGB(255, 255, 255)
+se.TextScaled = true
+se.TextSize = 14.000
+se.TextTransparency = 0.600
+se.TextWrapped = true
+
+UICorner_8.Parent = se
+
+We.Name = "We"
+We.Parent = MainFrame
+We.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+We.BackgroundTransparency = 1.000
+We.Position = UDim2.new(0, 0, 0.943699718, 0)
+We.Size = UDim2.new(0, 111, 0, 21)
+We.Font = Enum.Font.SourceSans
+We.Text = "WeebLoader.cc"
+We.TextColor3 = Color3.fromRGB(255, 255, 255)
+We.TextScaled = true
+We.TextSize = 14.000
+We.TextTransparency = 0.600
+We.TextWrapped = true
+
+-- Scripts:
+
+local function DKEPG_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(DKEPG_fake_script)()
+local function XMPO_fake_script() -- WeebLoadercc.Keybind 
+	local script = Instance.new('LocalScript', WeebLoadercc)
+
+	local MainFrame = script.Parent.MainFrame
+	local Opened = false
+	
+	local PositionClosed = UDim2.new(-0.801, 0,0.228, 0)
+	local PositionOpened = UDim2.new(0.194, 0,0.258, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.Home then
+			if Opened then
+				MainFrame:TweenPosition((PositionClosed), "InOut", "Quint")
+				Opened = false
+			else
+				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+end
+coroutine.wrap(XMPO_fake_script)()
